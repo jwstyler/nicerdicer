@@ -1,0 +1,92 @@
+html,
+body {
+    font-family: "Gill Sans MT";
+    margin: 5px;
+    padding: 5px;
+}
+
+:root {
+    --main-bg-color: #6E0A0F;
+    --main-bg-color-trans: rgba(110, 10, 15, 0.3);
+    --main-sec-color: #6a6b6c;
+    --main-sec-color-trans: rgba(106, 107, 108, 0.2);
+    --main-third-color: black;
+    --main-third-color-trans: rgba(0, 0, 0, 0.7);
+    --main-four-color: white;
+}
+
+.clear {
+    clear: both;
+    height: 2px;
+    background-color: #6E0A0F;
+}
+
+.clear_uv {
+    clear: both;
+    height: 2px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.nav {
+    text-align: center;
+
+}
+
+#home {
+    margin: 5px;
+    padding: 5px;
+}
+
+.group {
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+.group:hover {
+    cursor: pointer;
+    color: var(--main-bg-color);
+}
+
+.terms {
+    text-align: center;
+}
+
+.group1 {
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+/*****************************/
+
+.panel, .flip {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    background-color: var(--main-sec-color-trans);
+    border: solid 1px var(--main-sec-color);
+}
+
+.flip {
+    color: var(--main-bg-color);
+    font-weight: bold;
+}
+
+.flip:hover {
+    cursor: pointer;
+}
+
+.panel {
+    height: auto;
+    display: none;
+}
