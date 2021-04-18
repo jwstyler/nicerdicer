@@ -2,7 +2,7 @@
 <html lang="de">
     <head>
         <meta charset="utf-8">
-        <title>Filmverwaltung</title>
+        <title>MainPage</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Stylesheets -->
         <link rel="stylesheet" type="text/css" href="CSS/mainStyle.css">
